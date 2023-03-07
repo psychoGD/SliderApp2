@@ -1,0 +1,29 @@
+img{
+    width: 650px;
+    height: 550px;
+    margin-left: 0;
+}
+
+.container{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#miniGallery{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#miniGallery > img{
+    width: 140px;
+    height: 130px;
+}
